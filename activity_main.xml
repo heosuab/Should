@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gram.should.MainActivity"
+    android:background="@drawable/background2"
+    android:id="@+id/Constraint_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/layout_main">
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="130dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/logo_layout"
+            android:background="@drawable/round_corner4">
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:text="    It it health that is real wealth and not pieces of gold and silver"
+                android:textStyle="italic"
+                android:textSize="10dp"
+                android:id="@+id/main_text" />
+
+            <ImageView
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:src="@drawable/should"
+                android:id="@+id/image_logo"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/round_corner"
+            android:id="@+id/main_layout"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/id"
+                    android:layout_margin="3dp"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:lines="1"
+                    android:hint="ID"
+                    android:layout_margin="3dp"
+                    android:id="@+id/login_id"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#fbdaae"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/password"
+                    android:layout_margin="3dp"
+                    android:layout_gravity="center"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:lines="1"
+                    android:hint="Password"
+                    android:layout_margin="3dp"
+                    android:id="@+id/login_password"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round_corner2"
+            android:layout_marginTop="30dp"
+            android:text="Log in"
+            android:id="@+id/btn_login"
+            android:visibility="gone" />
+
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:background="@drawable/round_corner2"
+            android:layout_marginTop="20dp"
+            android:text="Join Us"
+            android:id="@+id/btn_Join"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

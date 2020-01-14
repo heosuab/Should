@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="서울과학기술대학교"/>
+    <item android:title="컴퓨터공학과"/>
+    <item android:title="모바일 프로그래밍"/>
+    <item android:title="기말 프로젝트"/>
+
+    <item android:title="이수아"/>
+    <item android:title="최진영"/>
+
+    <item android:title="손일수 교수님 짱"/>
+</menu>
